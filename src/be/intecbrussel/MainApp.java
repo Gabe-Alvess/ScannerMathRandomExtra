@@ -10,7 +10,7 @@ public class MainApp {
         Random random = new Random();
         int randomNumber1 = 0;
         while (randomNumber1 != 50) {
-            randomNumber1 = random.nextInt(100);
+            randomNumber1 = random.nextInt(101);
             System.out.println("Random Number: " + randomNumber1);
         }
         System.out.println("Het getal " + randomNumber1 + " is bereikt!!!");
